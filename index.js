@@ -34,6 +34,7 @@ const mostrarObjeto =( {nombre,pais} )=> console.log(`nombre: ${nombre}`);
 //llamada a la función pasandole el objeto a destructurar
 mostrarObjeto(usuario);
 
+//reduce
 let total = [1, 2, 3, 4, 5].reduce(function (previous, current, index) {
     let val = previous + current;
     console.log("The previous value is " + previous + 
